@@ -2,13 +2,21 @@
     width: 100vw;
 }
 
+.banner__titulo{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
 .banner__descripcion {
     position: absolute;
     left: 5%;
     top: 55%;
     color: #ffffff;
-    font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .banner__boton {
@@ -18,7 +26,7 @@
     top: 75%;
     color: #ffffff;
     background-color: #2E6FF2;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .banner {
@@ -28,7 +36,7 @@
 .banner::before {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
     left: 0;
     right: 0;
     height: 100%;
