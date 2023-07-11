@@ -1,0 +1,48 @@
+.cabecera{
+    display: flex;
+    background-color: #2E6FF2;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+.cabecera__inicio{
+    display: flex;
+    align-items: center;
+}
+
+.cabecera__final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera__logo{
+    width: 50vw;
+}
+
+.cabecera__boton{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    border: 1.5px solid #D7D9D8;
+    padding: 10px 25px;
+    color: #D7D9D8;
+    font-size: 1.1em;
+}
+
+
+.cabecera__busqueda{
+    display: none;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    height: 10px;
+    width: 90px;
+    padding: 10px;
+}
+
+.cabecera__icono{
+    width: 25px;
+}
