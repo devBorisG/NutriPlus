@@ -1,0 +1,48 @@
+.productos {
+    margin: 15px;
+}
+
+.productos__informacion {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.productos__contenido {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    grid-template-rows: minmax(20px, auto);
+}
+
+.productos__descripcion, .productos__precio, .productos__detalle{
+    padding: 2.5px;
+}
+
+.productos__tarjeta {
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.productos__imagen {
+    width: 120px;
+}
+
+.productos__detalle,
+.productos__vertodo {
+    color: #4174d9;
+}
+
+.productos__titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.productos__precio {
+    font-weight: bold;
+}
+
+.productos__vertodo {
+    font-size: 1.1em;
+}
