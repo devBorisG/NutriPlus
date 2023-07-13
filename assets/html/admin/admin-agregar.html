@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/cabecera.css">
+    <link rel="stylesheet" href="../../css/empresa.css">
+    <link rel="stylesheet" href="../../css/rodapie.css">
+    <link rel="stylesheet" href="../../css/admin/admin-agregar.css">
+    <link rel="icon" href="../../img/NutriPlus-Icono.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <title>Home | Login</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="cabecera__inicio">
+            <a href="../../../index.html">
+                <img src="../../img/NutriPlus-logo.png" alt="Logo NutriPlus" class="cabecera__logo">
+            </a>
+            <input type="text" class="cabecera__busqueda" placeholder="¿Qué desea buscar?">
+        </div>
+        <div class="cabecera__final">
+            <a href="admin.html">
+                <button class="cabecera__boton">Menu Administrador</button>
+            </a>
+        </div>
+        <img src="../../img/search.svg" alt="Logo Busqueda" class="cabecera__icono">
+    </header>
+    <main>
+        <section class="agregarproducto">
+            <h2 class="agregarproducto__titulo">Agregar nuevo producto</h2>
+            <form action="" class="agregarproducto__formulario">
+                <input type="text" class="agregarproducto__url" placeholder="URL de la imagen" required>
+                <input type="text" class="agregarproducto__categoria" placeholder="Categoria" required>
+                <input type="text" class="agregarproducto__nombre" placeholder="Nombre del producto" required>
+                <input type="text" class="agregarproducto__precio" placeholder="Precio del producto" required>
+                <textarea name="" id="" rows="5" class="agregarproducto__descripcion" placeholder="Descripcion del producto" required></textarea>
+                <input type="submit" value="Agregar Producto" class="agregarproducto__submit">
+            </form>
+        </section>
+        <section class="empresa">
+            <div class="empresa__contenedor">
+                <div class="empresa__imagen">
+                    <img src="../../img/NutriPlus-logo.png" alt="Logo Empresa" class="empresa__logo">
+                </div>
+                <div class="empresa__informacion">
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Quienes somos</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Politicas de privacidad</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Programa de fidelidad</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Nuestas tiendas</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Quiero ser franquiciado</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Anúncie aquí</p>
+                    </a>
+                </div>
+            </div>
+            <div class="empresa__contacto">
+                <h2 class="empresa__titulo">Hable con nosotros</h2>
+                <form action="" class="empresa__formulario">
+                    <input type="text" name="" id="" placeholder="Nombre" required class="formulario__nombre">
+                    <textarea name="" id="" rows="5" placeholder="Escribe tu mensaje" required
+                        class="formulario__text"></textarea>
+                    <input type="submit" value="Enviar" class="formulario__submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="rodapie">
+        <small>
+            &copy; 2023 <b>devBorisG</b> - Todos los Derechos
+            Reservados.
+        </small>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

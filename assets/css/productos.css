@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: end;
     border-radius: 3px;
     padding: 10px;
     text-align: center;
@@ -30,7 +31,7 @@
 }
 
 .productos__tarjeta a{
-    width: 120px;
+    width: 140px;
     display: flex;
     justify-content: center;
 }
@@ -48,7 +49,7 @@
     margin-top: 10px;
     border: 1px solid;
     border-radius: 3px;
-    width: 100px;
+    width: 140px;
     height: 15px;
     padding: 8px;
 }
@@ -75,7 +76,6 @@
 
     .productos__contenido{
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
     }
 
@@ -89,7 +89,6 @@
 
     .productos__informacion{
         margin-top: 30px;
-        margin-bottom: 30px;
     }
 
     .productos__tarjeta{
