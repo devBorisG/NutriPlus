@@ -28,6 +28,10 @@
     color: #ffffff;
     background-color: #2E6FF2;
     font-size: 1em;
+    width: 30vw;
+    height: 10vh;
+    max-height: 40px;
+    max-width: 150px;
 }
 
 .banner {
@@ -45,7 +49,7 @@
     pointer-events: none;
 }
 
-@media screen and (min-width: 678px) {
+@media screen and (min-width: 767px) {
 
     .banner{
         display: flex;
@@ -71,5 +75,6 @@
     .banner__boton{
         top:85%;
         font-size: 1.2em;
+        cursor: pointer;
     }
 }

@@ -69,4 +69,8 @@
         justify-content: space-between;
         padding-right: 60px;
     }
+
+    .cabecera__boton{
+        cursor: pointer;
+    }
 }
