@@ -115,4 +115,8 @@
     .empresa__contenedor{
         display: flex;
     }
+
+    .empresa__informacion{
+        align-items: start;
+    }
 }
