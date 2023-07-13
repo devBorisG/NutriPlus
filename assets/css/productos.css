@@ -20,6 +20,9 @@
 }
 
 .productos__tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 3px;
     padding: 10px;
     text-align: center;
@@ -27,6 +30,7 @@
 }
 
 .productos__tarjeta a{
+    width: 100px;
     display: flex;
     justify-content: center;
 }
