@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/cabecera.css">
-    <link rel="stylesheet" href="../css/empresa.css">
-    <link rel="stylesheet" href="../css/rodapie.css">
-    <link rel="stylesheet" href="../css/login.css">
-    <link rel="icon" href="assets/img/NutriPlus-Icono.ico">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/cabecera.css">
+    <link rel="stylesheet" href="../../css/empresa.css">
+    <link rel="stylesheet" href="../../css/rodapie.css">
+    <link rel="stylesheet" href="../../css/login/login.css">
+    <link rel="icon" href="../../img/NutriPlus-Icono.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
@@ -20,17 +20,17 @@
 <body>
     <header class="cabecera">
         <div class="cabecera__inicio">
-            <a href="../../index.html">
-                <img src="../img/NutriPlus-logo.png" alt="Logo NutriPlus" class="cabecera__logo">
+            <a href="../../../index.html">
+                <img src="../../img/NutriPlus-logo.png" alt="Logo NutriPlus" class="cabecera__logo">
             </a>
             <input type="text" class="cabecera__busqueda" placeholder="¿Qué desea buscar?">
         </div>
         <div class="cabecera__final">
-            <a href="assets/html/login.html">
+            <a href="../../html/login/login.html">
                 <button class="cabecera__boton">Login</button>
             </a>
         </div>
-        <img src="../img/search.svg" alt="Logo Busqueda" class="cabecera__icono">
+        <img src="../../img/search.svg" alt="Logo Busqueda" class="cabecera__icono">
     </header>
     <main>
         <section class="login">
@@ -38,13 +38,15 @@
             <form action="" class="login__formulario">
                 <input type="email" name="" id="" class="login__email" placeholder="Ingresa tu correo electronico" required>
                 <input type="password" name="" id="" class="login__password" placeholder="Ingresa tu contraseña" required>
-                <input type="submit" value="Enviar" class="login__submit">
             </form>
+            <a href="../admin/admin.html">
+                <button class="login__submit">Enviar</button>
+            </a>
         </section>
         <section class="empresa">
             <div class="empresa__contenedor">
                 <div class="empresa__imagen">
-                    <img src="../img/NutriPlus-logo.png" alt="Logo Empresa" class="empresa__logo">
+                    <img src="../../img/NutriPlus-logo.png" alt="Logo Empresa" class="empresa__logo">
                 </div>
                 <div class="empresa__informacion">
                     <a href="#" class="empresa__enlaces">

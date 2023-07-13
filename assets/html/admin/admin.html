@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/cabecera.css">
+    <link rel="stylesheet" href="../../css/empresa.css">
+    <link rel="stylesheet" href="../../css/productos.css">
+    <link rel="stylesheet" href="../../css/rodapie.css">
+    <link rel="stylesheet" href="../../css/admin/admin.css">
+    <link rel="stylesheet" href="../../css/admin/admin-productos.css">
+    <link rel="icon" href="../../img/NutriPlus-Icono.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <title>Productos</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="cabecera__inicio">
+            <a href="../../../index.html">
+                <img src="../../img/NutriPlus-logo.png" alt="Logo NutriPlus" class="cabecera__logo">
+            </a>
+            <input type="text" class="cabecera__busqueda" placeholder="¿Qué desea buscar?">
+        </div>
+        <div class="cabecera__final">
+            <a href="../../html/login/login.html">
+                <button class="cabecera__boton">Login</button>
+            </a>
+        </div>
+        <img src="../../img/search.svg" alt="Logo Busqueda" class="cabecera__icono">
+    </header>
+    <main>
+        <section class="productos">
+            <div class="productos__informacion">
+                <h2 class="productos__titulo">Todos los productos</h2>
+                <button class="productos__agregar">Agregar Producto</button>
+            </div>
+            <div class="productos__contenido">
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/proteina-jumbo.png" alt="Scitec Nutrition Jumbo Hardcore"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Scitec Nutrition Jumbo Hardcore</p>
+                    <p class="productos__precio">$129.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/proteina-whey-gold.png" alt="Gold Standard 100% Whey" class="productos__imagen">
+                    <p class="productos__descripcion">Gold Standard 100% Whey</p>
+                    <p class="productos__precio">$649.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/proteina-whey-prostar-whey.png" alt="Ultimate Nutrition Prostar"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Ultimate Nutrition Prostar</p>
+                    <p class="productos__precio">$540.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/proteina-whey-scitec-whey.png" alt="Scitec Nutrition 100% Whey"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Scitec Nutrition 100% Whey</p>
+                    <p class="productos__precio">$267.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/proteina-whey-scitec.png" alt="Scitec Nutrition Hidrolizado"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Scitec Nutrition Hidrolizado</p>
+                    <p class="productos__precio">$486.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/proteina-whey-suero.png" alt="Universal Nutrition Ultra Whey Pro"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Universal Nutrition Ultra Whey Pro</p>
+                    <p class="productos__precio">$716.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/creatina-prozis.png" alt="Creatina Prozis" class="productos__imagen">
+                    <p class="productos__descripcion">Creatina Prozis</p>
+                    <p class="productos__precio">$116.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/creatina-olimp.png" alt="Creatina Olimp" class="productos__imagen">
+                    <p class="productos__descripcion">Creatina Olimp</p>
+                    <p class="productos__precio">$169.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/creatina-muscletech-platinum.png" alt="Creatina MuscleTech Platinum"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Creatina MuscleTech Platinum</p>
+                    <p class="productos__precio">$69.900 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/creatina-universal-nutrition.png" alt="Creatina Universal Nutrition"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Creatina Universal Nutrition</p>
+                    <p class="productos__precio">$158.900 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/creatina-formotiva.png" alt="Creatina Formotiva" class="productos__imagen">
+                    <p class="productos__descripcion">Creatina Formotiva</p>
+                    <p class="productos__precio">$100.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/creatina-optimun-nutrition.png" alt="Creatina Optimun Nutrition"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Creatina Optimun Nutrition</p>
+                    <p class="productos__precio">$190.800 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/aminoacido.png" alt="Gaspari Nutrition Aminoacido" class="productos__imagen">
+                    <p class="productos__descripcion">Gaspari Nutrition Aminoacido</p>
+                    <p class="productos__precio">$226.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/Barras-proteicas.png" alt="Star Nutrition Barras de Proteína Láctea"
+                        class="productos__imagen">
+                    <p class="productos__descripcion">Star Nutrition Barras de Proteína Láctea</p>
+                    <p class="productos__precio">$80.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/BCAA.png" alt="Labrada Nutrition BCAA" class="productos__imagen">
+                    <p class="productos__descripcion">Labrada Nutrition BCAA</p>
+                    <p class="productos__precio">$122.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/capsulas-omega3.png" alt="Trec Nutrition Omega 3-6-9" class="productos__imagen">
+                    <p class="productos__descripcion">Trec Nutrition Omega 3-6-9</p>
+                    <p class="productos__precio">$110.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/Colageno.png" alt="Scitec Nutrition Colageno" class="productos__imagen">
+                    <p class="productos__descripcion">Scitec Nutrition Colageno</p>
+                    <p class="productos__precio">$143.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+                <div class="productos__tarjeta">
+                    <p class="prodcutos__iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trash-2">
+                            <path d="M3 6h18" />
+                            <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+                            <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+                            <line x1="10" x2="10" y1="11" y2="17" />
+                            <line x1="14" x2="14" y1="11" y2="17" />
+                        </svg>
+                    </p>
+                    <img src="../../img/glutamina.png" alt="AllSports Arginina" class="productos__imagen">
+                    <p class="productos__descripcion">AllSports Arginina</p>
+                    <p class="productos__precio">$239.000 COP</p>
+                    <a href="#">
+                        <p class="productos__detalle">Ver Producto</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="empresa">
+            <div class="empresa__contenedor">
+                <div class="empresa__imagen">
+                    <img src="../../img/NutriPlus-logo.png" alt="Logo Empresa" class="empresa__logo">
+                </div>
+                <div class="empresa__informacion">
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Quienes somos</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Politicas de privacidad</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Programa de fidelidad</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Nuestas tiendas</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Quiero ser franquiciado</p>
+                    </a>
+                    <a href="#" class="empresa__enlaces">
+                        <p class="empresa__descripcion">Anúncie aquí</p>
+                    </a>
+                </div>
+            </div>
+            <div class="empresa__contacto">
+                <h2 class="empresa__titulo">Hable con nosotros</h2>
+                <form action="" class="empresa__formulario">
+                    <input type="text" name="" id="" placeholder="Nombre" required class="formulario__nombre">
+                    <textarea name="" id="" rows="5" placeholder="Escribe tu mensaje" required
+                        class="formulario__text"></textarea>
+                    <input type="submit" value="Enviar" class="formulario__submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="rodapie">
+        <small>
+            &copy; 2023 <b>devBorisG</b> - Todos los Derechos
+            Reservados.
+        </small>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
