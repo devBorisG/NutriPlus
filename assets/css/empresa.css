@@ -1,0 +1,68 @@
+.empresa__informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.empresa__contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.empresa__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.empresa__titulo, .formulario__nombre, .formulario__submit, .formulario__text{
+    margin: 5px;
+}
+
+.empresa__titulo{
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.formulario__nombre, .formulario__text{
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.formulario__text{
+    resize: none;
+    overflow: auto;
+}
+
+.formulario__submit{
+    width: 60px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4174D9;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+.empresa{
+    background-color: #bbbdbc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.empresa__logo{
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.empresa__descripcion{
+    padding: 10px;
+}
+
+.empresa__descripcion{
+    color: #FFFFFF;
+}

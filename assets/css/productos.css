@@ -20,6 +20,7 @@
 }
 
 .productos__tarjeta {
+    border-radius: 3px;
     padding: 10px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -35,7 +36,7 @@
 }
 
 .productos__titulo {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
