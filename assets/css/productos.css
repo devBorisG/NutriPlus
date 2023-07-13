@@ -46,4 +46,6 @@
 
 .productos__vertodo {
     font-size: 1.1em;
+    display: flex;
+    align-items: center;
 }
