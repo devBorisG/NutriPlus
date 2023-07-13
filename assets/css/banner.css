@@ -37,10 +37,39 @@
 .banner::before {
     content: "";
     position: absolute;
-    bottom: 2px;
+    bottom: 0;
     left: 0;
     right: 0;
     height: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
     pointer-events: none;
+}
+
+@media screen and (min-width: 678px) {
+
+    .banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner__imagen{
+        height: 500px;
+        object-fit: cover;
+        object-position: 0 0;
+    }
+
+    .banner__titulo{
+        font-size: 3em;
+        top: 55%;
+    }
+
+    .banner__descripcion{
+        top: 70%;
+        font-size: 1.4em;
+    }
+
+    .banner__boton{
+        top:85%;
+        font-size: 1.2em;
+    }
 }
