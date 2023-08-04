@@ -35,12 +35,17 @@
     <main>
         <section class="agregarproducto">
             <h2 class="agregarproducto__titulo">Agregar nuevo producto</h2>
-            <form action="" class="agregarproducto__formulario">
-                <input type="text" class="agregarproducto__url" placeholder="URL de la imagen" required>
-                <input type="text" class="agregarproducto__categoria" placeholder="Categoria" required>
-                <input type="text" class="agregarproducto__nombre" placeholder="Nombre del producto" required>
-                <input type="text" class="agregarproducto__precio" placeholder="Precio del producto" required>
-                <textarea name="" id="" rows="5" class="agregarproducto__descripcion" placeholder="Descripcion del producto" required></textarea>
+            <form action="" class="agregarproducto__formulario" data-form>
+                <input type="text" class="agregarproducto__url" placeholder="URL de la imagen" required data-url>
+                <select class="agregarproducto__categoria" required data-categoria>
+                    <option disabled selected value>Escoje una categoria</option>
+                </select>
+                <input type="text" class="agregarproducto__nombre" placeholder="Nombre del producto" required
+                    data-nombre>
+                <input type="text" class="agregarproducto__precio" placeholder="Precio del producto" required
+                    data-precio>
+                <textarea name="" id="" rows="5" class="agregarproducto__descripcion"
+                    placeholder="Descripcion del producto" required data-descripcion></textarea>
                 <input type="submit" value="Agregar Producto" class="agregarproducto__submit">
             </form>
         </section>
@@ -87,7 +92,11 @@
             Reservados.
         </small>
     </footer>
-    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../../../controller/product/crear-producto.js"></script>
+    <script type="module" src="../../../controller/categories/listar-categorias.js"></script>
 </body>
 
 </html>

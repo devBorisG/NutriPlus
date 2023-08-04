@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "id": "07c06d1f-32c8-4fb6-955c-62e68628b354",
+      "url": "https://ginasiovirtual.com/wp-content/uploads/2016/03/scitec-jumbo-gainer.jpg",
+      "nombre": "Scitec Nutrition Jumbo Hardcore",
+      "idCategoria": "9e3588ee-3a01-48a3-bcbd-0cf19e0e6ec2",
+      "precio": "129000",
+      "descripcion": "Proteina de alta calidad de la marca Scitec Nutrition"
+    }
+  ],
+  "categories": [
+    {
+      "id": "9e3588ee-3a01-48a3-bcbd-0cf19e0e6ec2",
+      "nombre": "Proteina"
+    },
+    {
+      "id": "1c2b1664-9055-41d9-ad86-a55adbf8a2c5",
+      "nombre": "Creatina"
+    },
+    {
+      "id": "e5ae34ec-b559-402c-b2ef-1d63666a2606",
+      "nombre": "Suplemento"
+    }
+  ]
+}
