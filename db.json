@@ -7,6 +7,62 @@
       "idCategoria": "9e3588ee-3a01-48a3-bcbd-0cf19e0e6ec2",
       "precio": "129000",
       "descripcion": "Proteina de alta calidad de la marca Scitec Nutrition"
+    },
+    {
+      "id": "55a1672b-0046-4235-9d29-0412558f4dff",
+      "url": "https://zonafit.co/wp-content/uploads/2022/07/gold-standard-5-lb.jpg",
+      "nombre": "Gold Standard 100% Whey",
+      "idCategoria": "9e3588ee-3a01-48a3-bcbd-0cf19e0e6ec2",
+      "precio": "649000",
+      "descripcion": "Proteina de alta calidad Gold Standard"
+    },
+    {
+      "id": "7ac10bfa-cb79-4f54-bf1c-d229e0b4b257",
+      "url": "https://zonafit.co/wp-content/uploads/2023/04/prostar-whey-2-lb.jpg",
+      "nombre": "Ultimate Nutrition Postar",
+      "idCategoria": "9e3588ee-3a01-48a3-bcbd-0cf19e0e6ec2",
+      "precio": "540000",
+      "descripcion": "Proteina de suero de arroz 100% Whey"
+    },
+    {
+      "id": "652344ee-e6cc-4155-a582-86f057a1e680",
+      "url": "https://5.imimg.com/data5/ML/HN/MY-8953236/protein-professional-powder-500x500.jpg",
+      "nombre": "Scitec Nutrition 100% Whey",
+      "idCategoria": "9e3588ee-3a01-48a3-bcbd-0cf19e0e6ec2",
+      "precio": "267000",
+      "descripcion": "Proteina sabor chocolate marca Scitec"
+    },
+    {
+      "id": "1a30c36c-3efd-460f-a872-3646eab2b6b0",
+      "url": "https://shipshop.am/preview/3/4/34453e25_1627805217.jpg",
+      "nombre": "Scitec Nutrition Hidrolizado",
+      "idCategoria": "9e3588ee-3a01-48a3-bcbd-0cf19e0e6ec2",
+      "precio": "486000",
+      "descripcion": "Proteina Hidrolizada 100% Whey"
+    },
+    {
+      "id": "ebe56b46-9063-42c3-ae72-3a79e8a5d361",
+      "url": "https://zonafit.co/wp-content/uploads/2020/12/ultrawhey-pro.jpg",
+      "nombre": "Universal Nutrition Ultra Whey Pro",
+      "idCategoria": "9e3588ee-3a01-48a3-bcbd-0cf19e0e6ec2",
+      "precio": "716000",
+      "descripcion": "Proteina 100% Whey de la marca Universal"
+    },
+    {
+      "id": "e2169bf7-3999-4535-b658-6db6224da64b",
+      "url": "https://static.privatesportshop.com/img/p/2389895-7351140-thickbox.jpg",
+      "nombre": "Creatina Prozis",
+      "idCategoria": "1c2b1664-9055-41d9-ad86-a55adbf8a2c5",
+      "precio": "116000",
+      "descripcion": "Creatina Prozis de alta calidad Creapure"
+    },
+    {
+      "id": "b8af2879-3a31-42dd-a9c0-633ed36152ae",
+      "url": "https://mass-zone.eu/images/producenci/olimp/olimp-creatine-monohydrate-xplode-monohydrat-kreatyny-500g-bag.webp",
+      "nombre": "Creatina Olimp",
+      "idCategoria": "1c2b1664-9055-41d9-ad86-a55adbf8a2c5",
+      "precio": "169000",
+      "descripcion": "Creatina Xplode Powder de calidad creapure"
     }
   ],
   "categories": [
